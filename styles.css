@@ -1,0 +1,101 @@
+body{
+    /* background: linear-gradient(to bottom right, #9be15d, #00e3ae); */
+    background: black;
+    color: white;
+}
+.card-body{
+    background: #1A1A1E;
+    color: white;
+}
+/* p{
+    color: #FFFFFF;
+} */
+
+#Intro{
+    padding: 100px 0px ;
+}
+.carousel img {
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+}
+.carousel{
+    padding-bottom: 100px;
+}
+.extraPadding{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.imgPadding{
+    padding: 1.5rem;
+}
+.navbarColoring{
+    background: #4EA2D2;
+    
+}
+button :hover{
+    color: #df2359;
+    
+}
+.changeSyntax, .changeSyntaxLeetcode , .changeSyntaxlHackerrank, .changeSyntaxCodechef, .changeSyntaxSpoj, .changeSyntaxHackerblocks{
+    color: #00e3ae;
+}
+.to-be-rendered {
+  display: none;
+}
+button:hover .to-be-rendered {
+    display: block;
+}
+html{
+  scroll-behavior: smooth;
+}
+.inBetween{
+  display: flex;
+  justify-content: space-between;
+}
+.progress-bar, .norm{
+    background-color: #D83C49;
+}
+a:hover{
+    background-color: white;
+}
+
+.property, .headingProperty{
+    background: #1A1A1E;
+    color: white;
+}
+.property:hover{
+    background: #312d3c;
+    transition: 300ms linear;
+    /* box-shadow: inset 0 0 0 5px #df2359; */
+    box-shadow:
+                1px 1px #df2359,
+                2px 2px #df2359,
+                3px 3px #df2359;
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    /* animation */
+}
+.carousel-caption{
+    color:#00e3ae;
+}
+.modern{
+    background: #1A1A1E;
+    color: white;
+    margin-bottom: 2px;
+}
+.modern:hover{
+    background: #312d3c;
+    color:#df2359;
+    transition: 300ms linear; 
+    box-shadow:
+                1px 1px #df2359,
+                2px 2px #df2359,
+                3px 3px #df2359;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+.nav-link:hover, .navbar-text:hover {
+    background: #df2359;
+    
+}
